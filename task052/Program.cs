@@ -34,16 +34,18 @@ int m = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите количество столбцов массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[m, n];
-for (int j = 0; j < matrix.GetLength(1); j++)
+FillMatrix(matrix);
+PrintMatrix(matrix);
+for (int j = 0; j < matrix.GetLength(0); j++)
 {
     double sum = 0;
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(1); i++)
     {
         sum += matrix[i, j];
     }
-    Console.Write($"{ sum / matrix.GetLength(0)} ");
+    Console.Write($"Среднее арифметическое в №{j+1} { sum / matrix.GetLength(1)} ");
 }
-Console.ReadLine();
 
-FillMatrix(matrix);
-PrintMatrix(matrix);
+
+
+
