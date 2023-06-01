@@ -1,0 +1,15 @@
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\bin\Debug\net7.0\task052.exe
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\bin\Debug\net7.0\task052.deps.json
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\bin\Debug\net7.0\task052.runtimeconfig.json
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\bin\Debug\net7.0\task052.dll
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\bin\Debug\net7.0\task052.pdb
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.csproj.AssemblyReference.cache
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.AssemblyInfoInputs.cache
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.AssemblyInfo.cs
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.dll
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\refint\task052.dll
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.pdb
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\task052.genruntimeconfig.cache
+C:\Users\Даниил\Desktop\Учеба\HM7\task052\obj\Debug\net7.0\ref\task052.dll
