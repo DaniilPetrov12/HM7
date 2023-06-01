@@ -27,14 +27,22 @@ System.Console.Write($"{matrix[i, j]} " + "\t");
 System.Console.WriteLine();
 }
 }
-
-System.Console.Write("Введите строкe массива: ");
+System.Console.Write("Введите количество строкe массива: ");
+int n = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите количество столбцов массива: ");
+int m = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите строку массива: ");
 int stroka = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите столбtw массива: ");
+System.Console.Write("Введите столбец массива: ");
 int stolb = Convert.ToInt32(Console.ReadLine());
-int[,] matrix = new int[5, 6];
+int[,] matrix = new int[n, m];
 
-if (stroka < matrix.GetLength(0)||stolb<matrix.GetLength(1)) System.Console.WriteLine(matrix[stroka,stolb]);
-else System.Console.WriteLine($"{stroka}{stolb} такого числа нет в массиве"); 
+if (stroka <=0 && stroka < n && stolb>=0&&stolb<n )
+{
+System.Console.WriteLine($"Значение в массиве = {matrix[n,m]}");
+}
+else 
+{System.Console.WriteLine("  нет в массиве"); 
+}
 FillMatrix(matrix);
 PrintMatrix(matrix);
